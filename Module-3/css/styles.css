@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#header-nav {
+    background-color: grey;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand a {
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+.navbar-brand a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid black;
+}
+
+#collapsable-nav .visible-xs {
+    text-align: center;
+    color: black;
+    background-color: #c3c3c3;
+}
+
+li {
+    border-bottom: 1px solid;
+}
+
+.navbar-nav li:hover {
+    text-decoration: none;
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+.navbar-collapse {
+    padding: 0;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+.container-fluid {
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.borderclass {
+    border: 1px solid black;
+    background-color: grey;
+}
